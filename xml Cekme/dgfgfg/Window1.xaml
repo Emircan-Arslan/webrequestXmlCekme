@@ -1,0 +1,15 @@
+﻿<Window x:Class="dgfgfg.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:dgfgfg"
+        mc:Ignorable="d"
+        Title="Window1" Height="450" Width="800" Background="#FF763A3A">
+    <Grid>
+        <Button x:Name="Getir" Content="Verileri Getir" HorizontalAlignment="Left" Margin="288,93,0,256" Width="223" Click="Getir_Click"/>
+        <ListBox x:Name="list1" HorizontalAlignment="Left" Height="170" Margin="29,204,0,0" VerticalAlignment="Top" Width="672"/>
+        <Button x:Name="btn2" Content="3.kısma gir " HorizontalAlignment="Left" Height="69" Margin="560,93,0,0" VerticalAlignment="Top" Width="178" Click="Btn2_Click"/>
+
+    </Grid>
+</Window>
